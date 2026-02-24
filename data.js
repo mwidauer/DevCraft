@@ -1,11 +1,11 @@
 /* ══════════════════════════════════════════════════════════════════
-   DevCraft – data.js
+   DevCraft Pro – data.js
    Alle Inhalte: 10 Topics × 5-6 Subareas × Deep Dives
    Muss VOR app.js geladen werden (definiert APP_DATA)
    ══════════════════════════════════════════════════════════════════ */
 
 const APP_DATA = {
-  meta: { title: 'DevCraft', version: '1.0.0' },
+  meta: { title: 'DevCraft Pro', version: '1.1.0' },
   topics: [
 
 /* ══════════════════════════════════════════════════════════════════

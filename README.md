@@ -1,4 +1,4 @@
-# DevCraft
+# DevCraft Pro
 
 Interaktive Lern- und Referenzplattform für professionelle Softwareentwicklung.
 

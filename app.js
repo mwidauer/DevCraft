@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════════
-   DevCraft – app.js
+   DevCraft Pro – app.js
    Single-Page Application: Router, State, DataStore, Render, Events, Search
    Requires: data.js (APP_DATA) loaded before this file
    ══════════════════════════════════════════════════════════════════ */
@@ -455,19 +455,19 @@ const App = {
     let html;
     if (!route.topicId) {
       html = Render.homeView();
-      document.title = 'DevCraft – Professional Software Development';
+      document.title = 'DevCraft Pro – Professional Software Development';
     } else {
       const t = DataStore.topic(route.topicId);
       if (t) {
         html = Render.topicView(t, expandedDeepDives);
-        document.title = `${t.title} – DevCraft`;
+        document.title = `${t.title} – DevCraft Pro`;
       } else {
         html = `<div class="error-view">
           <h2>Thema nicht gefunden</h2>
           <p>Das gesuchte Thema existiert nicht.</p>
           <a href="#/">Zur Startseite</a>
         </div>`;
-        document.title = 'DevCraft';
+        document.title = 'DevCraft Pro';
       }
     }
 
